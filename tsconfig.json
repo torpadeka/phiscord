@@ -1,35 +1,48 @@
 {
-    "compilerOptions": {
-        "target": "es5",
-        "lib": ["dom", "dom.iterable", "esnext"],
-        "allowJs": true,
-        "skipLibCheck": true,
-        "strict": false,
-        "forceConsistentCasingInFileNames": true,
-        "noEmit": true,
-        "incremental": true,
-        "esModuleInterop": true,
-        "module": "esnext",
-        "moduleResolution": "node",
-        "resolveJsonModule": true,
-        "isolatedModules": true,
-        "jsx": "react-jsx",
-        "baseUrl": ".",
-        "paths": {
-            "@/*": ["renderer/*"]
-        },
-        "plugins": [
-            {
-                "name": "next"
-            }
-        ]
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "renderer/*"
+      ]
     },
-    "exclude": ["node_modules", "./next.config.js", "app", "dist"],
-    "include": [
-        "next-env.d.ts",
-        ".next/types/**/*.ts",
-        "**/*.ts",
-        "**/*.tsx",
-        "src"
-, "../phiscord-web/next-env.d.ts", "../phiscord-web/preload.d.ts"    ]
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "./next.config.js",
+    "app",
+    "dist"
+  ],
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src",
+    "../phiscord-web/next-env.d.ts",
+    "../phiscord-web/preload.d.ts"
+  ]
 }
