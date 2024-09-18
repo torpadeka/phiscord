@@ -1,5 +1,5 @@
-import { firestore, storage } from "../../../phiscord/firebase/clientApp";
-import firebase, { database } from "../../../phiscord/firebase/clientApp";
+import { firestore, storage } from "../../firebase/clientApp";
+import firebase, { database } from "../../firebase/clientApp";
 import type { Auth } from "firebase/auth";
 import { use, useEffect, useMemo, useRef, useState } from "react";
 

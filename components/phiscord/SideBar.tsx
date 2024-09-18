@@ -1,5 +1,5 @@
 import { LuBox } from "react-icons/lu";
-import firebase, { firestore, storage } from "../../../phiscord/firebase/clientApp";
+import firebase, { firestore, storage } from "../../firebase/clientApp";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { Auth } from "firebase/auth";
 import { useEffect, useState } from "react";

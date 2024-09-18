@@ -1,5 +1,5 @@
-import firebase, { firestore } from "../../../phiscord/firebase/clientApp";
-import { database } from "../../../phiscord/firebase/clientApp";
+import firebase, { firestore } from "../../firebase/clientApp";
+import { database } from "../../firebase/clientApp";
 import { useEffect, useState } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import type { Auth } from "firebase/auth";

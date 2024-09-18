@@ -1,4 +1,4 @@
-import firebase, { database, firestore } from "../../../phiscord/firebase/clientApp";
+import firebase, { database, firestore } from "../../firebase/clientApp";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useEffect, useState } from "react";
 import { Avatar, AvatarFallback, AvatarImage } from "../../components/ui/avatar";

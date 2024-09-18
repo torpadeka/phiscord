@@ -1,7 +1,7 @@
 "use client";
 
-import { firestore, storage } from "../../../phiscord/firebase/clientApp";
-import firebase from "../../../phiscord/firebase/clientApp";
+import { firestore, storage } from "../../firebase/clientApp";
+import firebase from "../../firebase/clientApp";
 import type { Auth } from "firebase/auth";
 
 import { zodResolver } from "@hookform/resolvers/zod";

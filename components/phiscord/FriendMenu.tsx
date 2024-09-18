@@ -1,7 +1,7 @@
-import firebase, { database } from "../../../phiscord/firebase/clientApp";
+import firebase, { database } from "../../firebase/clientApp";
 import { useAuthState } from "react-firebase-hooks/auth";
 import type { Auth } from "firebase/auth";
-import { firestore } from "../../../phiscord/firebase/clientApp";
+import { firestore } from "../../firebase/clientApp";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../../components/ui/tabs";
 
