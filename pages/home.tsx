@@ -3,7 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 
-import firebase, { firestore } from "../../phiscord/firebase/clientApp";
+import firebase, { firestore } from "../firebase/clientApp";
 import { useAuthState } from "react-firebase-hooks/auth";
 import type { Auth } from "firebase/auth";
 

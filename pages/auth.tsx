@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import StyledFirebaseAuth from "../components/firebase/StyledFirebaseAuth";
-import firebase from "../../phiscord/firebase/clientApp";
+import firebase from "../firebase/clientApp";
 import { withoutAuth } from "../hoc/withoutAuth";
 import { LuBox } from "react-icons/lu";
 

@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
-import firebase from "../../phiscord/firebase/clientApp";
-import { firestore } from "../../phiscord/firebase/clientApp";
+import firebase from "../firebase/clientApp";
+import { firestore } from "../firebase/clientApp";
 import { useAuthState } from "react-firebase-hooks/auth";
 import type { Auth } from "firebase/auth";
 import { useEffect, useState } from "react";

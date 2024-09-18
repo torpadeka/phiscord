@@ -2,7 +2,7 @@ import type { AppProps } from "next/app";
 import "../styles/globals.css";
 import { Inter as FontSans } from "next/font/google";
 import { cn } from "../lib/utils";
-import firebase from "../../phiscord/firebase/clientApp";
+import firebase from "../firebase/clientApp";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { Auth } from "firebase/auth";
 import { monitorUserStatus } from "../functions/updateUserStatus";
