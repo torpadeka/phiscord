@@ -1,5 +1,5 @@
-import firebase from "../../phiscord/firebase/clientApp";
-import { database } from "../../phiscord/firebase/clientApp";
+import firebase from "../firebase/clientApp";
+import { database } from "../firebase/clientApp";
 
 // Debounce utility function
 const debounce = (func: (...args: any[]) => void, wait: number) => {
